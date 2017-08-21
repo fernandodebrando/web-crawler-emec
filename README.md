@@ -11,3 +11,5 @@ Passo 2:
 
 Passo 3:
 ```php -S localhost:8000```
+
+Acesse no navegador: http://localhost:8000/
