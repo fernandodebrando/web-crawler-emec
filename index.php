@@ -75,7 +75,7 @@ function crawler($page = 1, $rows = 1)
         'stream' => true,
         'decode_content' => 'gzip']);
 
-    // crate crawler instance from body HTML code
+    // crie instância do crawler do corpo HTML
     $crawler = new Crawler($response->getBody()->getContents());
 
     // aplica filtro para buscar dados do onclick de cada resgistro
@@ -99,7 +99,7 @@ function crawler($page = 1, $rows = 1)
 
 
 /**
- * @description pega dados da instituição
+ * @description coleta dados da instituição
  * @param $idsIes código da instituição
  */
 function getDetalheIES($idIe)
